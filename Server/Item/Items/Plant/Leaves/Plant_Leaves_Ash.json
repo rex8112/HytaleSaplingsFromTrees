@@ -1,0 +1,22 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Plant_Leaves_Ash.name"
+  },
+  "Icon": "Icons/ItemsGenerated/Plant_Ash_Leaves.png",
+  "Parent": "Plant_Leaves_Template",
+  "BlockType": {
+    "CustomModel": "Blocks/Foliage/Leaves/Ball.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Foliage/Leaves/Ball_Textures/Ash.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#156e38",
+    "Gathering": {
+      "Physics": {
+        "DropList": "Tree_Ash_Leaves"
+      }
+    }
+  }
+}

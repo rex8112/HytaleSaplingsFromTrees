@@ -1,0 +1,43 @@
+{
+  "Container": {
+    "Type": "Choice",
+    "Containers": [
+      {
+        "Type": "Multiple",
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ingredient_Fibre",
+              "QuantityMin": 0
+            },
+            "Weight": 2
+          }
+        ],
+        "Weight": 50
+      },
+      {
+        "Type": "Multiple",
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ingredient_Fibre",
+              "QuantityMin": 0
+            },
+            "Weight": 2
+          },
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Plant_Sapling_Beech",
+              "QuantityMin": 0
+            },
+            "Weight": 10
+          }
+        ],
+        "Weight": 50
+      }
+    ]
+  }
+}
