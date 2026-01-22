@@ -1,0 +1,21 @@
+{
+  "Input": [
+    {
+      "Quantity": 1,
+      "ItemId": "Plant_Sapling_Oak"
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Plant_Sapling_Cedar",
+    "Quantity": 1
+  },
+  "BenchRequirement": [
+    {
+      "Type": "Crafting",
+      "Id": "Farmingbench",
+      "Categories": [
+        "Saplings"
+      ]
+    }
+  ]
+}
